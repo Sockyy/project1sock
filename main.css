@@ -1,0 +1,66 @@
+html{
+	background-color:#facbc8;
+	color: black;
+	font-family: Times New Roman, Arial;
+}
+h1{
+	color:Blue;
+	font-size: 32pt;
+	text-align: center;
+}
+h3{
+	text-align: left;
+	font-size: 18pt;
+}
+table{
+	background-color: #facbb7;
+}
+tr{
+	padding: 5px;
+}
+th{
+	padding-left: 5px;
+	padding-right: 5px;
+}
+td{
+	padding-left: 5px;
+	padding-right: 5px;
+}
+img{
+	display: block;
+	margin-left: 5px;
+	margin-right: auto;
+}
+
+#spin{
+	animation: spinTime 4s ease;
+}
+
+@keyframes spinTime{
+	25% {transform: rotate(90deg);}
+	50% {transform: rotate(180deg);}
+	75% {transform: rotate(270deg);}
+	100% {transform: rotate(360deg);}
+}
+
+.navBar {
+	background-color: #595454;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+}
+
+.navBar a{
+	color: #ff6161;
+	text-align: center;
+	padding: 10px 12px;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+.navBar a.current{
+	background-color: #ff6161;
+	color: black;
+	padding-top: 16px;
+	padding-bottom: 15px;
+}

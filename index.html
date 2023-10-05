@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<link id="csslink" rel="stylesheet" href="main.css" />
+<script>
+	function switchStyle(){
+		var currCSS = document.getElementById('csslink');
+		
+		if(currCSS.getAttribute('href') == 'main.css'){
+			currCSS.setAttribute('href', 'alternate.css');
+			
+		}else{
+			currCSS.setAttribute('href', 'main.css')
+		}
+	
+	}
+</script>
+<head>
+   <title>Sockyy's Art Gallery</title>
+</head>
+
+<div class="navBar">
+	<a class="current" href="index.html" >Gallery</a>
+	<a href="aboutauthor.html">About</a>
+</div>
+
+<body>
+   <div id="spin"><h1>Collection 1</h1></div>
+   <main>
+	
+      <p>
+	  <button onclick="switchStyle()">Switch Viewing Mode</button>
+         <h3>A Picture of Socks</h3><br>
+		 <img src="socks.png">
+      </p>
+      <p>
+         <h3>Socks In The Wild</h3><br>
+		 <img src="socksinthewild.png">
+      <p>
+         <h3>Socks In Love</h3><br>
+		 <img src="socksinlove.png">
+      </p>
+      <p>
+         <h3>Gadget My Beloved</h3><br>
+		 <img src="gadget.jpg" width= "1100px" height= "800px">
+      </p>
+      <p>
+         <h3>Rufus is Displeased</h3><br>
+		 <img src="rufus.jpg" width= "500px" height="600px">
+      </p>
+   </main>
+</body>
+
+<footer>
+	Parker and Co.&#169;
+</footer>
+</html>

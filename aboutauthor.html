@@ -1,0 +1,82 @@
+<!DOCTYPE=html>
+<html lang="en">
+<link id="csslink" rel="stylesheet" href="main.css">
+<script>
+	function switchStyle(){
+		var currCSS = document.getElementById('csslink');
+		
+		if(currCSS.getAttribute('href') == 'main.css'){
+			currCSS.setAttribute('href', 'alternate.css');
+			
+		}else{
+			currCSS.setAttribute('href', 'main.css')
+		}
+	
+	}
+</script>
+
+<head>
+	<title>About the Author</title>
+</head>
+
+<div class="navBar">
+	<a href="index.html" >Gallery</a>
+	<a class="current" href="aboutauthor.html">About</a>
+</div>
+
+<body>
+
+	<h1>About The Author</h1><br>
+	<button onclick="switchStyle()">Switch Viewing Mode</button>
+	<p>
+		Hello I am the author, i created and took part in the creation of all the paintings you saw, below are all of the services and cats,
+		that helped me create the website
+		<ol>
+			<li><a href="https://en.wikipedia.org/wiki/Microsoft_Paint" target="_blank">Microsoft Paint</a></li>
+			<li><a href="https://github.com" target="_blank">Github</a></li>
+			<li>Gadget (as Gadget the cat)</li>
+			<li>Willow (as Willow the cat)</li>
+		</ol>
+	</p>
+	<p>
+		Here is a table to show which pictures were made with microsoft paint and which ones i took with my phone<br><br>
+		<table>
+			<caption>MS Paint Versus Phone Camera</caption>
+			<tr>
+			<th></th>
+				<th>MS Paint</th>
+				<th>Camera</th>
+			</tr>
+			<tr>
+				<th>A Picture of Socks</th>
+				<td>&check;</td>
+				<td>X</td>
+			</tr>
+			<tr>
+				<th>Socks In The Wild</th>
+				<td>&check;</td>
+				<td>X</td>
+			</tr>
+			<tr>
+				<th>Socks In Love</th>
+				<td>&check;</td>
+				<td>X</td>
+			</tr>
+			<tr>
+				<th>Gadget My Beloved</th>
+				<td>X</td>
+				<td>&check;</td>
+			</tr>
+			<tr>
+				<th>Rufus is Displeased</th>
+				<td>X</td>
+				<td>&check;</td>
+			</tr>
+		</table>
+	</p>
+	
+</body>
+
+<footer>
+	Parker and Co.&#169;
+</footer>
