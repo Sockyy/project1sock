@@ -64,3 +64,17 @@ img{
 	padding-top: 16px;
 	padding-bottom: 15px;
 }
+
+.navBar a.aria-label{
+	color: #ff6161;
+	text-align: center;
+	padding: 10px 12px;
+	font-size: 18px;
+	text-decoration: none;
+}
+.navBar a.aria-current{
+	background-color: #ff6161;
+	color: black;
+	padding-top: 16px;
+	padding-bottom: 15px;
+}
