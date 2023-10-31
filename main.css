@@ -14,7 +14,7 @@ h3{
 }
 table{
 	background-color: #facbb7;
-	border-color:black;
+	border: 2px solid;
 }
 tr{
 	padding: 5px;
